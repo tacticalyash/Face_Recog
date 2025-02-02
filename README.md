@@ -22,11 +22,14 @@ Follow these steps to set up the application:
 - Virtual environment (optional but recommended)
 - [Qt for Python](https://doc.qt.io/qtforpython/)
 - opencv-python
+- PyQt6
 
 #### Execution / Usage
 1) Run the "main.py" 
-2) Open the video by clicking menu button (mostly all video format compatible.) e.g ->https://www.youtube.com/watch?v=8R7XqslaEUE
+2) Open the video by clicking menu button (You can import video  from Video_samples folder.) e.g ->https://www.youtube.com/watch?v=8R7XqslaEUE
 3) After importing the video it will start processing the video then it will take specific time to process
-4) Green circle will shown on Face .
+4) Green circle will shown on Face . It will only detect the Larger face with coordinates.(Multiple face)
+5) Press the Pause button , Bounding Box widget will open , Modify the values then it will show the updated one.
+6) Click the Find Largest bounding box , it will generate the text with writes the coordinates and area.
 
 #### 
